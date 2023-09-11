@@ -1,0 +1,98 @@
+body{
+    background-color:#e6eaf1;
+    font-weight: 500;
+    min-width: 375;
+}
+.side-bar{
+    font-style: Raleway;
+    font-size:16px ;
+    color: #a2a0a0;
+    padding: 13px;
+    padding-left: 26px;
+}
+.side-bar:hover{
+    color: black;
+background-color: #eaecf1;
+border-right: 4px solid #446ec3;
+}
+.offcanvas{
+    max-width: 260px;
+}
+.payment{
+    font-size: 16px;
+}
+.pay{
+    color: grey;
+}
+.top-nav{
+    background-color: white;
+    color: #948c8c;
+    border-left:2px solid #e6eaf1;
+}
+@media (max-width:637px){
+    .new-payment{
+      font-size: small;
+    }
+}
+.dropdown-bt,.dropdown-bt:hover{
+    background-color: white;
+    color: #568cf9;
+    border: none;
+}
+.account{
+    font-size: small;
+    color: #a2a0a0 !important;
+}
+.amount{
+    font-size: x-small;
+    text-align: left;
+    color: #a2a0a0;
+}
+.select-account{
+    background-color: #568cf9;
+    border: none;
+    font-size: small;
+}
+.table1{
+    font-size: small;
+    line-height: 12px;
+}
+.table2{
+    font-size: small;
+    line-height: 15px;
+}
+.table-head{
+    color: #a2a0a0 !important;
+    font-size: 12px;
+    font-weight: 500;
+}
+.connected{
+    font-size: 16px;
+}
+.pay-bill{
+    font-size: xx-small;
+    border-radius: 8px;
+}
+.cancel{
+    background-color: #c9d7f3;
+    border: none;
+    color: #568cf9;
+}
+.navbar-brand{
+    border-left: 2px solid;
+    color: #ebe8e8;
+    display: inline-block;
+    height: 100%;
+}
+input[type="text"]::placeholder {
+    text-align: right;
+}
+@media (max-width:637px){
+    .navbar-brand{
+      border-left: white;
+      padding: 5px;
+    }
+}
+.table{
+    --bs-table-striped-bg: #f2f4f8 !important;
+}
